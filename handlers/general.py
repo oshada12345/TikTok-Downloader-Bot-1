@@ -30,13 +30,7 @@ async def get_url(message: Message) -> None:
     except Exception:
         await message.answer("⭕️ The URL is not correct.")
 
-@router.message(Command(commands=["start", "download"]))
-async def general_command(message: Message, state: FSMContext) -> None:
-    await message.answer(
-        "✏️ Enter video URL:",
-        reply_markup=keyboards.cancel_keyboard()
-    )
-    await state.set_state(GetUrl.url)
+
 
 @router.message(GetUrl.url, CancelFilter(), UrlFilter())
 async def get_url_fsm(message: Message, state: FSMContext) -> None:
