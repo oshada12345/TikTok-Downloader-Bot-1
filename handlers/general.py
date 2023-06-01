@@ -14,7 +14,13 @@ router = Router(name="General Handler")
 
 async def get_url(message: Message) -> None:
     await message.answer(
-        "🌀 Wait...",
+        "⏱ Ｗａｉｔ．．．🧬
+        ██ 20% *___*
+███ 40% *___*
+████ 60% *___*
+█████ 80% *___*
+██████ 100% *___*
+",
         reply_markup=keyboards.KeyboardRemove()
     )
 
@@ -28,7 +34,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.answer("⭕️ The URL is not correct.")
+        await message.answer("🎶🎶 Ｔｈｅ ＵＲＬ ｉｓ ｎｏｔ ｃｏｒｒｅｃｔ．✔️ ✔️ ")
 
 
 
