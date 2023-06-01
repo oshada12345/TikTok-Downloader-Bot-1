@@ -14,7 +14,7 @@ router = Router(name="General Handler")
 
 async def get_url(message: Message) -> None:
     await message.answer(
-        "⏱ Ｗａｉｔ．．．🧬 █▒▒▒▒▒▒▒▒▒",
+        "⏱ Ｗａｉｔ．．．🧬 /n/n█▒▒▒▒▒▒▒▒▒",
         reply_markup=keyboards.KeyboardRemove()
     )
 
