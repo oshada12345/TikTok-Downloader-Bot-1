@@ -10,7 +10,7 @@ class UrlFilter(BaseFilter):
         or message.text.startswith("https://vt.tiktok.com/"):
             return True
         
-        await message.answer("⭕️ It doesn't seem to be a TikTok URL.")
+        await message.answer("👻👻 Ｉｔ ｄｏｅｓｎ＇ｔ ｓｅｅｍ ｔｏ ｂｅ ａ ＴｉｋＴｏｋ ＵＲＬ．👻👻")
 
         return False
         
