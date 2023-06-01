@@ -10,7 +10,7 @@ from bot.filters import UrlFilter, CancelFilter
 
 
 
-router = Router(name="General Handler")
+
 
 async def get_url(message: Message) -> None:
     await message.answer(
