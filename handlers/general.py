@@ -14,11 +14,12 @@ router = Router(name="General Handler")
 
 
 async def get_url(message: Message) -> None:
+    await message.reply_sticker('CAACAgUAAxkBAAED9kRiDq_GkOHuRHPeVv4IRhsvy4NtbwACqQQAAncUyFftN80YUiyXnyME'),
     await message.answer(
         "🌀 Wait...",
         reply_markup=keyboards.KeyboardRemove()
     ),
-     await message.reply_sticker('CAACAgUAAxkBAAED9kRiDq_GkOHuRHPeVv4IRhsvy4NtbwACqQQAAncUyFftN80YUiyXnyME')
+     
 
     try:
         tik_tok = TikTok(message.text)
