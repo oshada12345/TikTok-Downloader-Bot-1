@@ -32,7 +32,7 @@ class TikTok:
             "TE": "trailers"
         }
 
-        self.server_url = "https://musicaldown.com/"
+        self.server_url = "https://tikvideo.app/"
         self.post_url = self.server_url + "id/download"
 
         self.session = requests.Session()
