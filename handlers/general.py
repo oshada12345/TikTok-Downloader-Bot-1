@@ -15,7 +15,7 @@ router = Router(name="General Handler")
 async def get_url(message: Message) -> None:
     await message.answer(
         "🚀 DOᗯᑎᒪOᗩᗪIᑎG Video TO Sᕮᖇᐯᕮᖇ ...."),
-        await message.answer reply_sticker('CAACAgUAAxkBAAED9kZiDq_LFrib38c7DYu3jNz3ebsolgACJAUAAuTb4FdKtjtZGQ2ukiME')
+       await message.reply_sticker('CAACAgUAAxkBAAED9kZiDq_LFrib38c7DYu3jNz3ebsolgACJAUAAuTb4FdKtjtZGQ2ukiME')
         reply_markup=keyboards.KeyboardRemove()
     )
 
