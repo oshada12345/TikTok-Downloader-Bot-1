@@ -10,8 +10,8 @@ class UrlFilter(BaseFilter):
         or message.text.startswith("https://vt.tiktok.com/"):
             return True
         
-        await message.answer(' 🔥☆ ᴘʟᴢ ꜱᴇɴᴅ ᴍᴇ ᴠɪᴅᴇᴏ ʟɪɴᴋ \n\n\n @Satan666661'),
-        await message.reply_sticker('CAACAgIAAxkBAAEB2Ltkfq8OzEjD30sLd8EKCaDkPQ112AACBAEAAladvQreBNF6Zmb3bC8E')
+        await message.answer('ᴘʟᴢ ꜱᴇɴᴅ ᴍᴇ ᴠɪᴅᴇᴏ ʟɪɴᴋ'),
+        await message.reply_sticker('CAACAgIAAxkBAAEB2NdkfxPhIiGJP1h5tmOFkuGkFI33KQACXhgAAogOKEhUGNKuQ9GUEC8E')
 
         return False
         
