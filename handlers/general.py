@@ -13,7 +13,7 @@ router = Router(name="General Handler")
 
 
 
-async def get_url(message: Message,sticker: Sticker) -> None:
+async def get_url(message: Message) -> None:
     await message.reply_sticker('CAACAgUAAxkBAAEB2K9kfq2J_cOk-k-uAlMsw0UhQkn-bgACawYAAuWrKVW_hr19UXvxkS8E'),
     await message.answer(
         "🚀 DOᗯᑎᒪOᗩᗪIᑎG Video TO Sᕮᖇᐯᕮᖇ ....",
