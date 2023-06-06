@@ -2,4 +2,4 @@
 
 class Privacy:
     """API-TOKENS"""
-    bot: str = "6162835664:AAF82yhi5W7jJe8VJxeLTk10xKGCLWBn6Fk"
+    bot: str = "6162835664:AAFKvP2ZaZj9SkCPXiv9qSpxDcHn7Vz7W2U"
