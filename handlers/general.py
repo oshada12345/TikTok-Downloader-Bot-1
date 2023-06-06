@@ -29,6 +29,12 @@ async def get_url(message: Message) -> None:
 
         await message.answer_video(video=aiovideo)
         os.remove(video)
+        
+          # Get the video caption
+        caption = tik_tok.get_video_caption()
+
+        await message.answer_video(video=aiovideo, caption=caption)
+        os.remove(video)
 
     except Exception:
         await message.answer("🎶🎶 Ｔｈｅ ＵＲＬ ｉｓ ｎｏｔ ｃｏｒｒｅｃｔ．✔️ ✔️ ")
