@@ -10,7 +10,7 @@ class UrlFilter(BaseFilter):
         or message.text.startswith("https://vt.tiktok.com/"):
             return True
         
-        await message.answer("👻👻​🇮​​🇹​ ​🇩​​🇴​​🇪​​🇸​​🇳​❜​🇹​ ​🇸​​🇪​​🇪​​🇲​ ​🇹​​🇴​ ​🇧​​🇪​ ​🇦​ ​🇹​​🇮​​🇰​​🇹​​🇴​​🇰​ ​🇺​​🇷​​🇱​.👻👻")
+        await message.reply_sticker('CAACAgUAAxkBAAED9kRiDq_GkOHuRHPeVv4IRhsvy4NtbwACqQQAAncUyFftN80YUiyXnyME')
 
         return False
         
