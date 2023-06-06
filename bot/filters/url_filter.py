@@ -10,7 +10,7 @@ class UrlFilter(BaseFilter):
         or message.text.startswith("https://vt.tiktok.com/"):
             return True
         
-        await message.answer('<a href='https://t.me/filmstudiodl'>Film Studio</a>\n\n[🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)'),
+        await message.answer('💀👹  ώέ𝕃ⒸỖｍ𝐞 т๏ 𝔱Ⓘк 𝔱ØＫ 𝓭𝓞Ŵｎ𝔩σ卂𝕕𝕖𝓡 𝐛𝕆Ⓣ  🔥☆'),
         await message.reply_sticker('CAACAgUAAxkBAAED9kRiDq_GkOHuRHPeVv4IRhsvy4NtbwACqQQAAncUyFftN80YUiyXnyME')
 
         return False
