@@ -37,7 +37,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.answer("🎶🎶 Ｔｈｅ ＵＲＬ ｉｓ ｎｏｔ ｃｏｒｒｅｃｔ．✔️ ✔️ ")
+        await message.reply("🎶🎶 Ｔｈｅ ＵＲＬ ｉｓ ｎｏｔ ｃｏｒｒｅｃｔ．✔️ ✔️ ")
 
 
 
