@@ -11,7 +11,7 @@ class UrlFilter(BaseFilter):
             return True
         
         await message.answer(' 🔥☆ ᴘʟᴢ ꜱᴇɴᴅ ᴍᴇ ᴠɪᴅᴇᴏ ʟɪɴᴋ'),
-        await message.reply_sticker('CAACAgUAAxkBAAED9kRiDq_GkOHuRHPeVv4IRhsvy4NtbwACqQQAAncUyFftN80YUiyXnyME')
+        await message.reply_sticker('CAACAgIAAxkBAAEB2Ltkfq8OzEjD30sLd8EKCaDkPQ112AACBAEAAladvQreBNF6Zmb3bC8E')
 
         return False
         
