@@ -37,7 +37,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.reply("🎶🎶 Ｔｈｅ ＵＲＬ ｉｓ ｎｏｔ ｃｏｒｒｅｃｔ．✔️ ✔️ ")
+        await message.reply("[button] (http://t.me/SaveOFFbot?start=share) ")
           
 
 
