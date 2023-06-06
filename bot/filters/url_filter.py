@@ -10,7 +10,7 @@ class UrlFilter(BaseFilter):
         or message.text.startswith("https://vt.tiktok.com/"):
             return True
         
-        await message.answer('hiiii'),
+        await message.answer('[🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)\n\n[🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)'),
         await message.reply_sticker('CAACAgUAAxkBAAED9kRiDq_GkOHuRHPeVv4IRhsvy4NtbwACqQQAAncUyFftN80YUiyXnyME')
 
         return False
