@@ -38,6 +38,12 @@ async def get_url(message: Message) -> None:
 
     except Exception:
         await message.reply("🎶🎶 Ｔｈｅ ＵＲＬ ｉｓ ｎｏｔ ｃｏｒｒｅｃｔ．✔️ ✔️ ")
+          keyboard = [
+        [InlineKeyboardButton("Button 1", callback_data='button1')],
+        [InlineKeyboardButton("Button 2", callback_data='button2')],
+        [InlineKeyboardButton("Button 3", callback_data='button3')]
+    ]
+    reply_markup = InlineKeyboardMarkup(keyboard)
 
 
 
