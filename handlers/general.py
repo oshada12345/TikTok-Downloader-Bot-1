@@ -28,7 +28,7 @@ async def get_url(message: Message) -> None:
         aiovideo = FSInputFile(video)
 
         await message.answer_video(video=aiovideo)
-        os.remove(video)
+        os.remove(video) caption='@XLR_TT_BOT')
         
           # Get the video caption
         caption = tik_tok.get_video_caption()
@@ -37,7 +37,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.reply("Thank Using Out Bot \n\n Join Our Channel @Satan666661")
+        await message.("Thank Using Out Bot \n\n Join Our Channel @Satan666661")
           
 
 
