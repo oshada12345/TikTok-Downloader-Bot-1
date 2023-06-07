@@ -26,7 +26,7 @@ START_BUTTONS=[
 
 
 async def get_url(message: Message) -> None:
-    await message.reply_sticker('CAACAgIAAxkBAAEB2MNkfrAJYL0I9YHrJLPr3RPgj7SQbAACKBsAApXE8Eo3HwK46IRtPy8E')
+    await message.reply_sticker('CAACAgUAAxkBAAEB2OtkgFNpCSVb3ukEv8_J796JtCyn-gACNwUAAuBGiVTP-IZF8MfuMi8E')
     await message.answer(
         "🚀 DOᗯᑎᒪOᗩᗪIᑎG Video TO Sᕮᖇᐯᕮᖇ ....",
         reply_markup=InlineKeyboardMarkup(START_BUTTONS))
