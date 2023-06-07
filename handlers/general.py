@@ -45,7 +45,7 @@ async def get_url(message: Message) -> None:
       
     
 
-    reply_sticker.delete()
+  await message.delete()
 
 
 
