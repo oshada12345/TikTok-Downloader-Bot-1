@@ -28,7 +28,7 @@ async def get_url(message: Message) -> None:
         aiovideo = FSInputFile(video)
 
         await message.answer_video(video=aiovideo)
-        os.remove(video) captain('Hyy')
+        os.remove(video) captain(Hyy)
         
           # Get the video caption
         caption = tik_tok.get_video_caption()
