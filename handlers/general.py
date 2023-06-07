@@ -41,7 +41,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.answer('[🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)\n\n[🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)')
+        await message.answer('[🏖 TikTok Download API 🏖] (https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)\n\n[🔥 SL Developers </> 🇱🇰] (https://t.me/SL_Developers)')
       
     
 
