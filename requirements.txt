@@ -1,4 +1,4 @@
 bs4
 requests
 aiogram==3.0.0b6
-python-telegram-bot
+python_telegram_bot==12.4.2
