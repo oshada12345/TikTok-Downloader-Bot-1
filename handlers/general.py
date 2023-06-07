@@ -31,13 +31,13 @@ async def get_url(message: Message) -> None:
         os.remove(video) 
         
           # Get the video caption
-        caption = ("Hy")
+        caption = tik_tok.get_video_caption("fk")
 
         await message.answer_video(video=aiovideo, caption=caption)
         os.remove(video)
 
     except Exception:
-        await message.replay("Thank Using Out Bot \n\n Join Our Channel @Satan666661")
+        await message.replay_video("Thank Using Out Bot \n\n Join Our Channel @Satan666661")
           
 
 
