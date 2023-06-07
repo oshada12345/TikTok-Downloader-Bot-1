@@ -1,10 +1,5 @@
-from telegram import ParseMode
-from telegram.ext import (
-    Updater,
-    CommandHandler,
-    MessageHandler,
-    Filters
-)
+
+
 import os
 
 from aiogram import Router
@@ -16,8 +11,6 @@ from bot.ext import keyboards, GetUrl, TikTok
 from bot.filters import UrlFilter, CancelFilter
 
 
-# ParseMode Type For All Messages
-_ParseMode=ParseMode.MARKDOWN
 
 router = Router(name="General Handler")
 
@@ -48,7 +41,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.answer('[🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)\n\n[🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)',parse_mode=_ParseMode)
+        await message.answer('[🏖 TikTok Download API 🏖](https://github.com/Single-Developers/API/blob/main/tiktok/Note.md)\n\n[🔥 SL Developers </> 🇱🇰](https://t.me/SL_Developers)')
           
 
 
