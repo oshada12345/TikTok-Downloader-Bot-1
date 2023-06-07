@@ -13,6 +13,14 @@ from bot.filters import UrlFilter, CancelFilter
 
 
 router = Router(name="General Handler")
+#Button
+START_BUTTONS=[
+    [
+        InlineKeyboardButton("Source", url="https://github.com/X-Gorn/TikTokDL"),
+        InlineKeyboardButton("Project Channel", url="https://t.me/xTeamBots"),
+    ],
+    [InlineKeyboardButton("Author", url="https://t.me/xgorn")],
+]
 
 
 
@@ -21,8 +29,8 @@ async def get_url(message: Message) -> None:
     await message.reply_sticker('CAACAgIAAxkBAAEB2MNkfrAJYL0I9YHrJLPr3RPgj7SQbAACKBsAApXE8Eo3HwK46IRtPy8E')
     await message.answer(
         "🚀 DOᗯᑎᒪOᗩᗪIᑎG Video TO Sᕮᖇᐯᕮᖇ ....",
-        reply_markup=keyboards.KeyboardRemove()
-    )
+        reply_markup=InlineKeyboardMarkup(START_BUTTONS))
+    
      
 
     try:
