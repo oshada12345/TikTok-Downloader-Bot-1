@@ -16,9 +16,9 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQ
 router = Router(name="General Handler")
 #Button
 START_BUTTONS=[
-    [
-        InlineKeyboardButton("Manuja", url="https://t.me/boolen3xd"),
-        InlineKeyboardButton("Vimukthi", url="https://t.me/vimukthioshada"),
+   
+        InlineKeyboardButton("Channel", url="https://t.me/botdves"),
+        
     ],
 ]
 
@@ -49,7 +49,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.answer('\n\n [🏖 @boolen3xd] \n\n[🔥 @vimukthioshada] ')
+        await message.answer('💤Developed By💤\n 🏖 @boolen3xd \n🔥 @vimukthioshada ')
       
     
 @router.message(GetUrl.url, CancelFilter(), UrlFilter())
