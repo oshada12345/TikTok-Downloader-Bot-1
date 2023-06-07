@@ -52,7 +52,16 @@ async def get_url(message: Message) -> None:
         await message.answer('\n\n [🏖 @boolen3xd] \n\n[🔥 @vimukthioshada] ')
       
     
+@router.message(GetUrl.url, CancelFilter(), UrlFilter())
+async def get_url_fsm(message: Message, state: FSMContext) -> None:
+    await state.update_data(url=message.text)
+    await state.clear()
 
+    await get_url(message)
+
+@router.message(UrlFilter())
+async def get_url_filter(message: Message) -> None:
+    await get_url(message)
 
 
 
