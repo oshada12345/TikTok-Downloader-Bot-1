@@ -8,6 +8,7 @@ from aiogram.fsm.context import FSMContext
 
 from bot.ext import keyboards, GetUrl, TikTok
 from bot.filters import UrlFilter, CancelFilter
+from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, CallbackQuery
 
 
 
