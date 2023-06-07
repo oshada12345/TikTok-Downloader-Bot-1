@@ -37,7 +37,7 @@ async def get_url(message: Message) -> None:
         os.remove(video)
 
     except Exception:
-        await message.("Thank Using Out Bot \n\n Join Our Channel @Satan666661")
+        await message.replay("Thank Using Out Bot \n\n Join Our Channel @Satan666661")
           
 
 
