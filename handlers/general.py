@@ -19,7 +19,6 @@ START_BUTTONS=[
         InlineKeyboardButton("Source", url="https://github.com/X-Gorn/TikTokDL"),
         InlineKeyboardButton("Project Channel", url="https://t.me/xTeamBots"),
     ],
-    [InlineKeyboardButton("Author", url="https://t.me/xgorn")],
 ]
 
 
