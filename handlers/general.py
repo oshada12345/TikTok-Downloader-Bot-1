@@ -17,8 +17,8 @@ router = Router(name="General Handler")
 #Button
 START_BUTTONS=[
     [
-        InlineKeyboardButton("Source", url="https://github.com/X-Gorn/TikTokDL"),
-        InlineKeyboardButton("Project Channel", url="https://t.me/xTeamBots"),
+        InlineKeyboardButton("Manuja", url="https://t.me/boolen3xd"),
+        InlineKeyboardButton("Vimukthi", url="https://t.me/vimukthioshada"),
     ],
 ]
 
