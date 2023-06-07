@@ -45,7 +45,7 @@ async def get_url(message: Message) -> None:
           # Get the video caption
         caption = tik_tok.get_video_caption("fk")
 
-        await message.answer_video(video=aiovideo, caption=caption)
+        await message.answer_video(video=aiovideo)
         os.remove(video)
 
     except Exception:
