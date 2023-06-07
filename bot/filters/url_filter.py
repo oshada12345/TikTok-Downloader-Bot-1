@@ -11,7 +11,7 @@ class UrlFilter(BaseFilter):
             return True
         
         await message.answer('Please send me the video link !'),
-        await message.reply_sticker('CAACAgIAAxkBAAEB2NdkfxPhIiGJP1h5tmOFkuGkFI33KQACXhgAAogOKEhUGNKuQ9GUEC8E')
+        await message.reply_sticker('CAACAgUAAxkBAAEB2OdkgFIQIEMK9hXGKe7pa33VUZludAAC7QYAAivOgFSyWtJpGDd-Yi8E')
 
         return False
         
